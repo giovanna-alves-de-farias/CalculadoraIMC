@@ -23,15 +23,15 @@ namespace CalculadoraIMC
             // Informações da Tabela de IMC
             if(imc < 17){
                 Console.WriteLine("Você está muito abaixo do peso");
-            }else if((imc > 17) && (imc < 18.5)){
+            }else if(imc > 17 && imc < 18.5){
                 Console.WriteLine("Você está abaixo do peso");
             }else if(imc > 18.5 && imc < 25){
                 Console.WriteLine("Você está com o peso normal");
-            }else if((imc > 25) && (imc < 30)){
+            }else if(imc > 25 && imc < 30){
                 Console.WriteLine("Você está acima do peso");
-            }else if((imc > 30) && (imc < 35)){
+            }else if(imc > 30 && imc < 35){
                 Console.WriteLine("Você está no grau de obesidade I");
-            }else if((imc > 35) && (imc < 40)){
+            }else if(imc > 35 && imc < 40){
                 Console.WriteLine("Você está no grau de Obesidade II, ou seja, severa");
             }else  if (imc > 40){
                 Console.WriteLine("Obesidade Grau III, ou seja, mórbida");
